@@ -1,0 +1,84 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+@media (max-width: 768px) {
+  #root {
+    background-color: #ffffff;
+    min-height: 100vh;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+}
+
+@media (min-width: 768px) {
+  #root {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.main-heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .notification-container {
+    border-radius: 5px;
+    padding: 20px;
+    padding-right: 100px;
+    margin-top: 20px;
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .notification-container {
+    border-radius: 5px;
+    padding: 20px;
+    padding-right: 250px;
+    margin-top: 20px;
+    display: flex;
+  }
+}
+
+.logo {
+  width: 20px;
+}
+
+.notification {
+  color: #ffffff;
+  font-family: "Roboto";
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.information-container {
+  background-color: #0b69ff;
+}
+
+.success-container {
+  background-color: #2dca73;
+}
+
+.warning-container {
+  background-color: #ffb800;
+}
+
+.error-container {
+  background-color: #ff0b37;
+}
